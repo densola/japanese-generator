@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Japanese Generator</h1>
+        <p>Please do keep in mind that this does not generate real words, or include kanji. This only generates random characters for the sake of training one's ability to swiftly read either hiragana or katakana.</p>
+    </div>
+    
+    <div id="japanese-characters">Characters go here.</div>
+
+    <div class="menu">
+        <select name="character-type" id="character-type">
+            <option value="hiragana">Hiragana</option>
+            <option value="katakana">Katakana</option>
+        </select>
+        <input type="text" id="character-amount" placeholder="Enter character amount">
+        <button id="submit-btn">Generate!</button>
+    </div>
+
+</body>
+<script src="main.js"></script>
+<script src="jp-gen.js"></script>
+</html>
